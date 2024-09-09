@@ -1,98 +1,60 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
-    font-size: 1.5vw;
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    background-color: black;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+    background-color: #FDEE73;
+  }
+  
+  img {
+    border-radius: 80%;
 }
+  /* Text Box colour &*/
+  input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #efeaea;
+  }
 
-#Logo {
-    margin: 0px;
-    padding: 8px;
-    font-family: "Fredoka One", sans-serif;
-    width: 20%;
-    text-shadow:
-    1px 1px 0px black,
-    -1px 1px 0px black,
-    1px -1px 0px black,
-    -1px -1px 0px black;
-}
-
-ul {
-    margin: 0px;
-}
-
-body > header {
-    background-color: orange;
-    color: #99ffaa;
-    display: flex;
-    height: 12vh;
-    align-items: center;
-    justify-content: space-around;
-}
-
-#nav-ul {
-    display: flex;
-}
-
-#nav-ul > li {
-    padding: 8px;
-    margin: 16px;
-}
-
-body > header > nav > ul {
-    list-style: none;
-    text-decoration: none;
-}
-
-
-.navbutton {
+  
+  /* Underline colour */
+  hr {
+    border: 1px solid #f80dd1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit button */
+  .submit {
+    background-color: #099427;
     color: white;
-    text-decoration: none;
-    padding: 12px;
-    border: 1px solid white;
-    border-radius: 10%;
-}
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .submitbtn:hover {
+    opacity: 1;
+  }
+  
+  /* Colour of the text of the create account button */
+  a {
+    color: rgb(16, 16, 14);
+  }
 
-body > main article {
-    width: 70%;
-    margin: auto;
-}
-
-#main-content {
-    display: flex;
-    justify-content: space-around;
-}
-
-#main-content > div {
-    width: 70%;
-}
-
-form {
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-}
-
-img {
-    border-radius: 50%;
-}
-
-body > footer {
-    background-color: orange;
-    display: flex;
-}
-
-#footer-ul {
-    display: flex;
-    list-style: none;
-}
-
-#footer-ul > div > li {
-    margin-left: 12px;
-}
-
-#footer-ul > div > li > a {
-    color: white;
-    text-decoration: none;
-}
+  button {
+    background-color: #27faac;
+  }
+  
